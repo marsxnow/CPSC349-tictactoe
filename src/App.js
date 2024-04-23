@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Board from "./components/board";
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Board />
         </a>
       </header>
     </div>
