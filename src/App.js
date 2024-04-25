@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Board from "./components/board";
+import Square from "./components/square";
 function App() {
   return (
     <div className="App">
@@ -14,9 +15,8 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          <Board />
-        </a>
+        ></a>
+        <Square />
       </header>
     </div>
   );
