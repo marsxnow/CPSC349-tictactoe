@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Board from "./components/board";
 import Square from "./components/square";
+import Game from "./components/game";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         ></a>
-        <Square />
+        <Game />
       </header>
     </div>
   );
