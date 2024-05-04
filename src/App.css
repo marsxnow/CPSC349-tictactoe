@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tic {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 50px;
+}
+.status {
+  font-size: 24px;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Jacquard 24";
+}
+.square {
+  position: center;
+  width: 60px;
+  height: 60px;
+  margin: 4px;
+  border-color: #050817;
+  background-color: #e8eadf;
+  font-size: 24px;
+  font-family: "Jacquard 24";
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.square:hover {
+  background-color: #79acaa;
+  border-color: #960a00;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.square:focus {
+  background-color: #960a00;
+  border-color: #79acaa;
+}
+
+.game-info {
+  font-family: "Jacquard 24";
+  font-size: 24px;
+}
+
+.board-row {
+  display: flex;
+  position: center;
+  font-family: "Jacquard 24";
 }
